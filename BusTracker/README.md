@@ -1,19 +1,19 @@
-BUSTRACKER
+BUSTRACKER  
 
-Description:
+Description:  
 Animates the map marker on a Mapbox map to show the bus stops between MIT and Harvard.
 
-How to Run:
+How to Run:  
 1. Click "Show stops between MIT and Harvard".
 2. Watch the map marker move between bus stops.
 
-Future Improvements:
--Replace the map of Boston with one of Cincinnati.
+Future Improvements:  
+-Replace the map of Boston with one of Cincinnati.  
 -Show bus stops between the University of Cincinnati and Reds Stadium.
 
-License Information:
+License Information:  
 
-MIT License
+MIT License  
 Copyright (c) 2020 John Williams
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
