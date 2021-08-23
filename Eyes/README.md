@@ -1,19 +1,19 @@
-EYES
+EYES  
 
-Description:
+Description:  
 The eyes follow the cursor around the browser.
 
-How to Run:
-1. Move your cursor around the browser.
+How to Run:  
+1. Move your cursor around the browser.  
 2. Watch the eyes follow the cursor.
 
-Future Improvements:
--Make the eyes "blink" every time the mouse left-clicks.
+Future Improvements:  
+-Make the eyes "blink" every time the mouse left-clicks.  
 
-License Information:
+License Information:  
 
-MIT License
-Copyright (c) 2020 John Williams
+MIT License  
+Copyright (c) 2020 John Williams  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
