@@ -22,7 +22,7 @@
 <div class="container">
 
   <div>
-    <ul class="nav nav-tabs">
+    <ul class="nav nav-tabs flex-wrap-reverse">
       <li class="nav-item">
         <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home</a>
       </li>
@@ -35,65 +35,69 @@
     </ul>
   </div>
 
-  <div class="jumbotron">
-    <div class="row">
-      <div class="col col-4" style="display: block; justify-content: center; align-items: center;">
-        <p></p><img class="card-img" src="justinalimaras.jpg"></p>
-        <p><h4>pictured: Justin</h4></p>
-      </div>
-      <div class="col col-8">
-        <span id="jumbotext">
+  <div class="container jumbotron d-flex flex-wrap flex-direction-row">
+    <div class="row justify-content-center">
 
-        <p class="lead"><i class="fa fa-book"></i> Disciple of the Classics (i.e. Greek & Roman studies)</p>
-        <p class="lead"><i class="fa fa-laptop"></i> Devotee of Coding</p>
+      <div class="flex-col col-lg-5">
+        <span><img class="card-img" src="justinalimaras.jpg" style="justify-content: center; align-items: center;"></span>
+        <p><h5>pictured: Justin</h5></p>
+        <br/>
+      </div>
+
+      <div class="flex-col col-lg-7">
+        <h5><i class="fa fa-book"></i> Disciple of the Classics</h5>
+        <h5><i class="fa fa-laptop"></i> Devotee of Coding</h5>
+        <br/>
         <p>I graduated from Colgate University with a BA in Environmental Economics and Latin (2010), did a Postbachelor's in Classics at Columbia (2014), and obtained an MA in Classics from the University of Cincinnati after completing all PhD requirements except a dissertation (2021).</p>
         <p>Vomited out of the academic leviathan's belly, I persevere now not in beloved dead languages, but in the languages of the future (HTML, CSS, JavaScript, etc.).</p>
         <p>Despite the picture, I cannot play chess.</p>
+        <br/>
         <a class="btn btn-primary btn-lg" href="https://github.com/themistogenes" target="blank" role="button">Go to my GitHub</a>
-        </span>
-      </div>
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="d-flex flex-row justify-content-center">
-
-    <div class="card d-flex flex-col-3.5" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title">Hello World!</h5>
-        <p class="card-text">Introduction Video</p>
-        <img class="card-img" src="justinalimaras.jpg">
       </div>
-    </div>
-
-    <div class="card d-flex flex-col-3.5" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title">Recent Projects</h5>
-        <p class="card-text"><i class="fa fa-check-square"></i> <a href="BusTracker/index.html" class="text-link" target="blank">Bus Tracker</a></p>
-        <p class="card-text"><i class="fa fa-check-square"></i> <a href="Eyes/index.html" class="text-link" target="blank">Eyes</a></p>
-        <p class="card-text"><i class="fa fa-check-square"></i> <a href="PacMen/index.html" class="text-link" target="blank">PacMen</a></p>
-        <a class="btn btn-primary btn-sm" href="projects.html" role="button">See descriptions & more projects</a>
-      </div>
-    </div>
-
-    <div class="card d-flex flex-col-3.5" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title">Contact</h5>
-        <p class="card-text"><i class="fa fa-envelope"></i> jalimaras@gmail.com</p>
-        <p class="card-text"><i class="fa fa-user"></i> GitHub: <a href="https://github.com/themistogenes" class="text-link" target="blank">Themistogenes</a></p>
-      </div>
-    </div>
 
     </div>
   </div>
 
-</div>
+  <div class="container panel d-flex flex-wrap">
+    <div class="row justify-content-center flex-fill">
+
+      <div class="card flex-col col-lg-3">
+        <div class="card-body">
+          <h5 class="card-title">Hello World!</h5>
+          <p class="card-text">Introduction Video</p>
+          <iframe width="100%" height="56%" style="display: block; justify-content: center; align-items: center;" src="https://www.youtube.com/embed/j9zu8LspaG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="card flex-col col-lg-3">
+        <div class="card-body">
+          <h5 class="card-title">Recent Projects</h5>
+          <p class="card-text"><i class="fa fa-check-square"></i> <a href="BusTracker/index.html" class="text-link" target="blank">Bus Tracker</a></p>
+          <p class="card-text"><i class="fa fa-check-square"></i> <a href="Eyes/index.html" class="text-link" target="blank">Eyes</a></p>
+          <p class="card-text"><i class="fa fa-check-square"></i> <a href="PacMen/index.html" class="text-link" target="blank">PacMen</a></p>
+          <a class="btn btn-primary btn-sm" href="projects.html" role="button">See descriptions & more projects</a>
+        </div>
+      </div>
+
+      <div class="card flex-col col-lg-3">
+        <div class="card-body">
+          <h5 class="card-title">Contact</h5>
+          <p class="card-text"><i class="fa fa-envelope"></i> jalimaras@gmail.com</p>
+          <p class="card-text"><i class="fa fa-user"></i> GitHub: <a href="https://github.com/themistogenes" class="text-link" target="blank">Themistogenes</a></p>
+        </div>
+      </div>
+    
+    </div>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</div>
 
 </body>
 

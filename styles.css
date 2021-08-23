@@ -3,13 +3,16 @@
     }
     body {
         margin-bottom: 5%;
-        opacity: .95;
+        opacity: .9;
         background: url(statue.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
         font-family: 'Basic', sans-serif;
         color: black;
+    }
+    .linkbar {
+        width: 100%;
     }
     .nav {
         margin-top: 1%;
@@ -23,12 +26,12 @@
     }
     #justinalimaras {
         color: white;
-    font-family: 'Audiowide', cursive;
+        font-family: 'Audiowide', cursive;
     }
     .jumbotron {
-        background: darkslategray;
-        border: 0px solid gray;
         width: 95%;
+        background: darkslategray;
+        border: 1px solid white;
         margin-top: 1%;
         margin-bottom: 0%;
         margin-left: auto;
@@ -50,12 +53,23 @@
     .jumbotron .btn:hover {
          border: 1px solid white;
     }
+    .panel {
+        width: 85%;
+        margin-top: 1%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid darkslategray;
+        background: mintcream;
+        opacity: .9;
+        border-radius: .1%;
+    }
     .card {
     /* background-color: rgb(165, 175, 150); */
         background: url(column-faded-green.jpg);
         background-size: cover;
-        background-position: center;
-        background-attachment: auto;
+        background-position: 80% 0%;
+        background-attachment: fixed;
         opacity: .95;
         border: 0px solid gray;
         margin: 1% 1% 1% 1%;
