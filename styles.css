@@ -1,0 +1,94 @@
+    html {
+        height: 100%;
+    }
+    body {
+        margin-bottom: 5%;
+        opacity: .95;
+        background: url(statue.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: 'Basic', sans-serif;
+        color: black;
+    }
+    .nav {
+        margin-top: 1%;
+    }
+    .nav-link {
+        color: white;
+    }
+    .nav-link:hover {
+        background: lightgray;
+        color: black;
+    }
+    #justinalimaras {
+        color: white;
+    font-family: 'Audiowide', cursive;
+    }
+    .jumbotron {
+        background: darkslategray;
+        border: 0px solid gray;
+        width: 95%;
+        margin-top: 1%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        text-shadow: 0px 0px 0px black;
+    }
+    .display-4 {
+         text-shadow: 1px 1px 1px white;
+    }
+    .btn {
+         background: darkgray;
+         border: 0;
+    }
+    .jumbotron .btn {
+        background: darkgray;
+        text-shadow: 1px 1px 1px black;
+    }
+    .jumbotron .btn:hover {
+         border: 1px solid white;
+    }
+    .card {
+    /* background-color: rgb(165, 175, 150); */
+        background: url(column-faded-green.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: auto;
+        opacity: .95;
+        border: 0px solid gray;
+        margin: 1% 1% 1% 1%;
+        color: white;
+        
+    }
+    .card .btn {
+        color: black;
+        background: lightgray;
+        text-decoration: none;
+    }
+    .card .btn:hover {
+        border: 1px solid black;
+    }
+    .card-link {
+        color: white;
+    }
+    .project-card {
+        background: url(column-faded-green.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        opacity: .95;
+        border: 0px solid gray;
+        margin: 1% 1% 1% 1%;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+    .text-link {
+        color: wheat;
+        text-decoration: underline;
+    }
+    .text-link:hover {
+        color: wheat;
+        text-decoration: wavy underline;
+    }
