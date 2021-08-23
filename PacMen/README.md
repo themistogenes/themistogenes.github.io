@@ -1,19 +1,19 @@
-PACMEN
+PACMEN  
 
-Description:
-Makes PacMen and animates them to move around the screen.
+Description:  
+Makes PacMen and animates them to move around the screen.  
 
-How to Run:
-1. Click "Add PacMan" to add a PacMan to your screen.  Click this button repeatedly for multiple PacMen.
-2. Click "Start Game" to animate the PacMen.  Click this button repeatedly to speed up their motion.
+How to Run:  
+1. Click "Add PacMan" to add a PacMan to your screen.  Click this button repeatedly for multiple PacMen.  
+2. Click "Start Game" to animate the PacMen.  Click this button repeatedly to speed up their motion.  
 
-Future Improvements:
--Add a counter counting the number of PacMen collisions with the screen edges.
+Future Improvements:  
+-Add a counter counting the number of PacMen collisions with the screen edges.  
 
-License Information:
+License Information:  
 
-MIT License
-Copyright (c) 2020 John Williams
+MIT License  
+Copyright (c) 2020 John Williams  
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
