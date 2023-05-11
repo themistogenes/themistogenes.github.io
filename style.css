@@ -1741,6 +1741,12 @@ div.collapsing, div.show {
     display: block;
     margin-right: 0;
   }
+  #mini-projects-div {
+    text-align: left;
+  }
+  #cert-and-ed-div{
+    text-align: left;
+  }
   #footer-div {
     font-size: .75em;
   }
