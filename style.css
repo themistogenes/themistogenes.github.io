@@ -695,6 +695,7 @@ div.collapsing, div.show {
   text-shadow: 1px 1px 1px #ff00c1;
   opacity: 0.5;
   animation: hop 1.5s infinite;
+  cursor: pointer;
 }
 
 .link-icon {
